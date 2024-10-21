@@ -26,7 +26,6 @@
             display: flex;
             height: 80px;
             width: 100%;
-            background-color: #000b1d53;
             position: relative; /* Make it stay on top */
             z-index: 2;
         }
@@ -36,7 +35,9 @@
             
         }
         .navigasi{
+            background-color: azure;
             width: 100%;
+            height: 60px;
             display: flex;
             justify-content: center; /* Mencentral secara horizontal */
             align-items: center; /* Mencentral secara vertikal */
@@ -59,63 +60,52 @@
             font-weight: 600;
             font-size: 24px;
         }
-        .navigasi ul li a:hover{
-            color: #717171;
-        }
 
         .content{
             display: flex;
             width: 100%;
-            height: 700px;
+
         }
+
         .left{
+            background-color: azure;
             width: 50%;
-            height: 100%;
+            height: 65%;
             display: flex;
             flex-direction: column;
             justify-content: center;
-            align-items: center;
-            padding: 0px 80px;
-            color: #fff;
-            z-index: 2; /* Supaya teks tetap di atas gambar */
+            align-items: left;
+            padding: 150px;
         }
-        .left h2{
-            margin-top: -10px;
-        }
+
         .left p{
             font-size: 20px;
             font-weight: 300;
             text-align: justify;
             color: #A7A9BE;
-            margin-top: 5px;
         }
-        .left button{
-            padding: 15px 25px;
-            background-color: #6246EA;
-            color: #fff;
-            border: none;
-            border-radius: 5px;
-            font-size: 20px;
-            font-weight: 600;
-            cursor: pointer;
-            margin-top: 20px;
-        }
-        .left button:hover{
-            background-color: #4D3ABF;
-        }
+
         .right{
+            background-color: azure;
+            width: 50%;
+            height: 65%;
             display: flex;
             justify-content: center;
             align-items: center;
-            width: 50%;
-            height: 100%;
+            padding: 50px;
         }
-
+    
         .right img{
             object-fit: cover;
-            border-radius: 50%;
         }
-        
+
+        .content2{
+            background-color: #525CEB;
+            display: flex;
+            width: 100%;
+            height: 500px;
+        }
+
         .project{
             width: 100%;
             margin-top: 80px;
@@ -128,7 +118,6 @@
             font-weight: 600;
             margin-bottom: 30px;
         }
-
 
         .card{
             width: 30%;
@@ -149,26 +138,27 @@
     </style>
 </head>
 <body>
-    <div>class="navbar">
         <div class="navigasi">
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Project</a></li>
-                <li><a href="#">About</a></li>
+                <li><a href="#" style="color: #000B1D;">Home</a></li>
+                <li><a href="#" style="color: #000B1D;">Project</a></li>
+                <li><a href="#" style="color: #000B1D;">About</a></li>
             </ul>
         </div>
     </div>
-    <hr>
     <div class="content">
         <div class="left">
-            <h1 style="font-size: 50px;">Hafish Athallah</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, id, quia eligendi maiores labore totam tempore alias optio 
-                facilis nemo eveniet? Praesentium sequi deleniti placeat eos, veniam mollitia veritatis recusandae!</p>
-            <a href="https://github.com/Attths"><button>My Github</button></a>
+            <h1 style="font-size: 80px; color: #000B1D;">Welcome!</h1>
+            <p style="color: #000B1D;">
+                It's my simple portfolio website.
+            </p>
         </div>
         <div class="right">
-            <img src="/img/Saya.jpg" width="400px" height="400px">
+            <img src="/img/landimg.png" width="350px">
         </div>
+    </div>
+    <div class="content2">
+        <h1>p</h1>
     </div>
     <hr>
     <div class="project">
