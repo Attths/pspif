@@ -90,28 +90,38 @@ body {
     color: white !important;
 }
 
-.intro {
-    display: flex;
-    width: 100%;
-    height: 500px;
+.intro{
+    width: 80%;
+    height: 70%;
+    top: 45%;
+    left: 180px;
+    position: absolute;
+    font-size: 40px;
 }
 
-.introkiri {
-    background-color: #e6e6e6;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 50%;
-    height: 50vh;
+.intro p{
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    text-transform: capitalize;
 }
 
-.introkanan {
-    background-color: #e6e6e6;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+.fotopp{
     width: 50%;
-    height: 50vh;
+    float: right;
+}
+
+.fotopp img{
+    width: 50%;
+    margin-top: -235px;
+    margin-left: 165px;
+    border-radius: 50px;
+}
+
+.btn {
+    display: flex;
+    text-decoration: none;
+    padding: 14px 40px;
+    color: blanchedalmond;
+    font-size: 14px;
+    border-radius: 30px;
 }
