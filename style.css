@@ -128,6 +128,7 @@ a.tbl-biru {
     color: #EBF4F6;
     cursor: pointer;
     font-weight: bold;
+    transition: 0.3s;
 }
 
 a.tbl-biru:hover {
