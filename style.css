@@ -2,6 +2,7 @@
     text-decoration: none;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -182,4 +183,74 @@ p {
 
 .tengah {
     text-align: center;
+}
+
+footer {
+    background-color: #EBF4F6;
+}
+
+.footerContainer {
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+
+.sosmed {
+    display: flex;
+    justify-content: center;
+}
+
+.sosmed a {
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+    margin-top: 50px;
+    background-color: white;
+    border-radius: 100%;
+}
+
+.sosmed a i {
+    font-size: 2em;
+    color: #088395;
+    opacity: 0.9;
+}
+
+.sosmed a:hover {
+    background-color: #071952;
+    transition: 0.5s;
+}
+
+.sosmed a:hover i {
+    color: white;
+    transition: 0.5s;
+}
+
+.footerNav {
+    margin: 10px 0;
+    text-decoration: none;
+}
+
+.footerNav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.footerNav ul li a {
+    color: #088395;
+    margin: 20px;
+    text-decoration: none;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+.footerNav ul li a:hover {
+    opacity: 1
+}
+
+.footerBottom {
+    font-size: 10px;
+    padding: 1px;
+    text-align: center;
+    color: #088395;
+    opacity: 0.7;
 }
