@@ -101,7 +101,7 @@ p.judul_intro {
     background: rgb(18,171,193);
     background: linear-gradient(132deg, rgba(18,171,193,1) 0%, rgba(107,219,204,1) 22%, rgba(31,106,223,1) 48%, rgba(24,198,215,1) 73%, rgba(29,137,249,1) 100%);
     background-size: 400%;
-    -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: animate 10s linear infinite;
 }
