@@ -1,3 +1,4 @@
+
 *{
     text-decoration: none;
     margin: 0;
@@ -11,9 +12,26 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+@keyframes appear {
+    from {
+        opacity: 0;
+        transform: translateX(-100px);
+    } 
+    to {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+section {
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0;    
+}
+
 hr{
     border: 3px solid #088395;
-  }
+}
 
 .wrapper {
     width: 1250px;
@@ -87,7 +105,7 @@ section {
 }
 
 .kolom .deskripsi {
-    font-size: 20px;
+    font-size: 110%;
     font-family: 'Poppins', sans-serif;
     color:#071952;
 }
@@ -95,9 +113,7 @@ section {
 p.judul_intro {
     font-family: 'Montserrat';
     font-weight: 800;
-    font-size: 50px;
-    width: 100%;
-    line-height: 50px;
+    font-size: 300%;
     background: rgb(18,171,193);
     background: linear-gradient(132deg, rgba(18,171,193,1) 0%, rgba(107,219,204,1) 22%, rgba(31,106,223,1) 48%, rgba(24,198,215,1) 73%, rgba(29,137,249,1) 100%);
     background-size: 400%;
@@ -177,6 +193,7 @@ h2 {
 
 .deskprojek {
     margin-top: -5%;
+    
 }
 
 .judul_projek {
